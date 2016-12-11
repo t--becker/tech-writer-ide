@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "tiger-package:toggle",
+    "ctrl-alt-a": "tiger-package:convert"
+  }
+}

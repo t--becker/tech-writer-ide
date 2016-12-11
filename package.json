@@ -1,0 +1,19 @@
+{
+  "name": "tiger-package",
+  "main": "./lib/tiger-package",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "tiger-package:toggle"
+  },
+  "repository": "https://github.com/atom/tiger-package",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^2.0.0"
+  }
+}

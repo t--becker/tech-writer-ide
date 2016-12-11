@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tiger-package",
+        "command": "tiger-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tiger-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tiger-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
