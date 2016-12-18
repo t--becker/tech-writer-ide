@@ -3,8 +3,7 @@
   "main": "./lib/tiger-package",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "tiger-package:toggle"
   },
@@ -14,6 +13,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "jquery": "^2.0.0"
+    "jquery": "^2.0.0",
+    "js-md5": "^0.4.1",
+    "jsonpath-plus": "^0.15.0",
+    "node-rest-client": "^2.0.1"
   }
 }
