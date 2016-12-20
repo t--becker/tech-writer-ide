@@ -1,13 +1,13 @@
 {
-  "name": "tiger-package",
+  "name": "Writer-Toolkit",
   "main": "./lib/tiger-package",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Writer's toolkit with a bunch of features to help you write your day away.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "tiger-package:toggle"
   },
-  "repository": "https://github.com/atom/tiger-package",
+  "repository": "https://github.com/t--becker/tiger-package",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "tiger-package",
+          "label": "Writer Toolkit",
           "submenu": [
             {
               "label": "Toggle",
