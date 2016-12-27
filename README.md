@@ -1,4 +1,4 @@
-## Writer Toolkit
+# Writer Toolkit
 
 The writer toolkit doesn't do much now, but it will...my God it will!
 
@@ -12,9 +12,13 @@ The writer toolkit doesn't do much now, but it will...my God it will!
   * Numbered lists -> turn selection into a numbered list
   * Bullet lists -> turn selection into a bullet list
   * Add codeblock fences for javascript, php, ect
-  * Insert image -> could be emtpy image example of turns a selection into an image
+  * Insert image -> could be empty image example of turns a selection into an image
 
-* Markdown heading validator -> I always screw up the headings, body, etc so automatically check these.
+* ~~Markdown heading validator -> I always screw up the headings, body, etc so automatically check these and display error messages in a error window.~~
+
+* Markdown Previewer
+  * Previews your .md document in a viewer with your customized styles
+  * Updates as you type
 
 * JIRA Integration
   * Show your tasks
