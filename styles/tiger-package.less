@@ -14,12 +14,25 @@
  }
 }
 
+/*
+  BEGIN--- MARKDOWN VALIDATOR PANEL STYLINGS
+*/
+//close button styling for the markdown validator panel
+span.markdown-panel-closer{
+  cursor: pointer;
+  float:right;
+  color: white;
+}
+
+div.markdown-error-panel{
+    height:75px;
+    overflow-y: scroll;
+}
+
  ul.markdown-errors {
       list-style-type: none;
-
+      padding-left:0px;
       li.item{
-
-        //background-color: #4CAF50; /* Green */
         border: none;
         text-decoration: none;
       }
@@ -50,3 +63,6 @@
         content:".";
       }
 }
+/*
+  END--- MARKDOWN VALIDATOR PANEL STYLINGS
+*/
