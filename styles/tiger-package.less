@@ -12,6 +12,41 @@
     padding-left: 10px;
     color:white;
  }
+}
 
+ ul.markdown-errors {
+      list-style-type: none;
 
+      li.item{
+
+        //background-color: #4CAF50; /* Green */
+        border: none;
+        text-decoration: none;
+      }
+      li.item::before{
+        content: "error";
+        background-color: #D92626;
+        color:white;
+        padding-left:3px;
+        padding-right:3px;
+        border-radius:3px;
+      }
+
+      span.number{
+        color:white;
+        padding-left:5px
+      }
+      span.number::before{
+        content:"@ line number";
+        color:white;
+        padding-right:3px;
+      }
+
+      span.description{
+        color:gray;
+        padding-left:10px;
+      }
+      span.description::after{
+        content:".";
+      }
 }
