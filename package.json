@@ -2,7 +2,7 @@
   "name": "Writer-Toolkit",
   "main": "./lib/tiger-package",
   "version": "0.0.0",
-  "description": "Writer's toolkit with a bunch of features to help you write your day away.",
+  "description": "Writer's toolkit with a bunch of features to help you write your day away and not go insane.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "tiger-package:toggle"
