@@ -15,6 +15,8 @@ The writer toolkit doesn't do much now, but it will...my God it will!
   * Insert image -> could be empty image example of turns a selection into an image
 
 * ~~Markdown heading validator -> I always screw up the headings, body, etc so automatically check these and display error messages in a error window.~~
+  * Attach markdown-validator panel to the markdown file it's validating. Currently shows for every tab. -> can't do this. the panels can't be attached to the tab.
+  * run markdown panel on tab change.
 
 * Markdown Previewer
   * Previews your .md document in a viewer with your customized styles
