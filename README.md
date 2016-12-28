@@ -7,16 +7,19 @@ The writer toolkit doesn't do much now, but it will...my God it will!
 # TODOs
 
 * Markdown helper functions:
+  * Add multi-icon dropdown list for the below functions.
   * ~~Insert markdown table -> I always forget what a markdown table looks like, one click and it inserts a nice, empty one~~
   * Insert markdown link -> either inserts and empty markdown link or creates a link from a highlighted selection
   * Numbered lists -> turn selection into a numbered list
   * Bullet lists -> turn selection into a bullet list
   * Add codeblock fences for javascript, php, ect
   * Insert image -> could be empty image example of turns a selection into an image
+  * Strikeout -> strikes out the selected text
 
 * ~~Markdown heading validator -> I always screw up the headings, body, etc so automatically check these and display error messages in a error window.~~
-  * Attach markdown-validator panel to the markdown file it's validating. Currently shows for every tab. -> can't do this. the panels can't be attached to the tab.
-  * run markdown panel on tab change.
+  * Attach markdown-validator panel to the markdown file it's validating. Currently shows for every tab. -> can't do this. Panels can't be attached to a tab.
+  * ~~run markdown panel on editor change.~~
+  * ~~run markdown panel on tab change.~~
 
 * Markdown Previewer
   * Previews your .md document in a viewer with your customized styles

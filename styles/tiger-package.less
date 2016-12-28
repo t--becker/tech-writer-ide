@@ -35,6 +35,19 @@ div.markdown-error-panel{
       color:antiquewhite;
       display:inline;
     }
+
+    .markdown-error-panel-invalid-warning{
+        color:gray;
+    }
+    .markdown-error-panel-invalid-warning::before{
+      content: "warning";
+      background-color: #2634d9;
+      color:white;
+      padding-left:3px;
+      padding-right:3px;
+      border-radius:3px;
+      margin-right:5px;
+    }
 }
 
  ul.markdown-errors {
