@@ -10,15 +10,15 @@
 .tiger-package {
   background-color:black;
 
-  /*
-  ############################################################################
-  # ICON STYLINGS
-  ############################################################################
-  */
+/*
+############################################################################
+# TOP PANEL STYLINGS
+############################################################################
+*/
   .fa{
     color:white;
     font-weight:bold;
-    font-size: 15px;
+    font-size: 18px;
     padding-left:15px;
     cursor: pointer;
 
@@ -33,6 +33,11 @@
      color:white;
      &:hover{
        color:red;
+     }
+     //icon font is set by the Atom theme, so have to override them here.0
+     &:before{
+       margin-right:0px;
+       font-size:18px;
      }
   }
 }
@@ -109,4 +114,17 @@ div.markdown-error-panel{
       span.description::after{
         content:".";
       }
+    }
+/*
+############################################################################
+# MARKDOWN TOOLBAR STYLINGS
+############################################################################
+*/
+div.markdown-toolbar{
+  .fa{
+    color:white;
+    padding-left:10px;
+    font-size: 14px;
+
+  }
 }
