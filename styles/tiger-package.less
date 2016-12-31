@@ -6,9 +6,7 @@
 @import "../iconsets/font-awesome/font-awesome";
 
 
-
 .tiger-package {
-  background-color:black;
 
 /*
 ############################################################################
@@ -18,42 +16,38 @@
 
   ul.button-group{
     list-style: none;
-    display:inline-flex;
+    display:inline-table;
     margin-bottom: 5px;
     margin-top: 5px;
-    border: 1px solid #ffffff;
+    border: 1px solid #D3D3D3;
     border-radius: 5px;
     padding:0px;
     text-align: center;
-    margin-left:10px
-  }
-  li.fa{
-    display: inline-block;
-    border-left: 1px solid #ffffff;
-    color:white;
-    font-weight:bold;
-    font-size: 18px;
-    cursor: pointer;
-    padding: 4px;
+    margin-left:10px;
 
-    &:hover{
-    color:red;
+    &:before{
+      padding-left: 10px;
+    }
+    &:after{
+      padding-left: 10px;
+    }
+
+    li.fa{
+      display: inline-block;
+      border-left: 1px solid #ffffff;
+      color:white;
+      font-size: 13px;
+      cursor: pointer;
+      padding: 4px;
+
+      &:hover{
+      color:red;
+      }
     }
   }
 
-  li.icon{
-     cursor: pointer;
-     color:white;
-     padding: 4px;
-     &:hover{
-       color:red;
-     }
-     //icon font is set by the Atom theme, so have to override them here.0
-     &:before{
-       margin-right:0px;
-       font-size:18px;
-     }
-  }
+
+
 }
 
 /*
