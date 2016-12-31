@@ -15,22 +15,36 @@
 # TOP PANEL STYLINGS
 ############################################################################
 */
-  .fa{
+
+  ul.button-group{
+    list-style: none;
+    display:inline-flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding:0px;
+    text-align: center;
+    margin-left:10px
+  }
+  li.fa{
+    display: inline-block;
+    border-left: 1px solid #ffffff;
     color:white;
     font-weight:bold;
     font-size: 18px;
-    padding-left:15px;
     cursor: pointer;
+    padding: 4px;
 
     &:hover{
-      color:red;
+    color:red;
     }
   }
 
-  .icon{
+  li.icon{
      cursor: pointer;
-     padding-left: 10px;
      color:white;
+     padding: 4px;
      &:hover{
        color:red;
      }
@@ -115,16 +129,3 @@ div.markdown-error-panel{
         content:".";
       }
     }
-/*
-############################################################################
-# MARKDOWN TOOLBAR STYLINGS
-############################################################################
-*/
-div.markdown-toolbar{
-  .fa{
-    color:white;
-    padding-left:10px;
-    font-size: 14px;
-
-  }
-}
