@@ -21,6 +21,7 @@ Logo pending
   * Bullet lists -> turn selection into a bullet list or returns empty bullet list example
   * Codeblock fences for javascript, php, ect
     * Reads your code and identifies the type
+  * Link
   * ~~Image -> inserts empty markdown image~~
   * ~~Strikeout~~
   * ~~Bolding~~
