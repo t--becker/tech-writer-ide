@@ -16,12 +16,12 @@ Logo pending
 * Markdown Toolbar
   * ~~Add multi-icon dropdown list for the below functions.~~
   * ~~Insert markdown table -> I always forget what a markdown table looks like, one click and it inserts a nice, empty one~~
-  * ~~Insert markdown link -> either inserts and empty markdown link or creates a link from a highlighted selection~~
+  * Insert markdown link -> either inserts and empty markdown link or creates a link from a highlighted selection
   * Numbered lists -> turn selection into a numbered list or returns empty numbered list example
   * Bullet lists -> turn selection into a bullet list or returns empty bullet list example
   * Codeblock fences for javascript, php, ect
     * Reads your code and identifies the type
-  * Image -> inserts empty markdown image
+  * ~~Image -> inserts empty markdown image~~
   * ~~Strikeout~~
   * ~~Bolding~~
   * ~~Italics~~
@@ -48,3 +48,6 @@ Logo pending
 * Visual Github integration
   * Use the d3js library to show a visual representation of bitbucket branches (http://bl.ocks.org/mbostock/4339083)
   * allow to commit and merge branches by dragging streams together.
+
+* Bugs
+  * Throws "no action" when no files are open and user presses button.
