@@ -21,11 +21,11 @@ Logo pending
   * Bullet lists -> turn selection into a bullet list or returns empty bullet list example
   * Codeblock fences for javascript, php, ect
     * Reads your code and identifies the type
-  * Link
   * ~~Image -> inserts empty markdown image~~
   * ~~Strikeout~~
   * ~~Bolding~~
   * ~~Italics~~
+  * Convert html elements to their markdown equivalent
 
 * ~~Markdown Validator~~
   * ~~Attach markdown-validator panel to the markdown file it's validating. Currently shows for every tab. -> can't do this. Panels can't be attached to a tab.~~
