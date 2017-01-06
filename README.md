@@ -15,8 +15,7 @@ Logo pending
 
 * Markdown Toolbar
   * ~~Add multi-icon dropdown list for the below functions.~~
-  * ~~Insert markdown table -> I always forget what a markdown table looks like, one click and it inserts a nice, empty one~~
-  * Insert markdown link -> either inserts and empty markdown link or creates a link from a highlighted selection
+  * ~~Insert markdown table -> I always forget what a markdown table looks like, one click and it inserts a nice empty one~~
   * Numbered lists -> turn selection into a numbered list or returns empty numbered list example
   * Bullet lists -> turn selection into a bullet list or returns empty bullet list example
   * Codeblock fences for javascript, php, ect
@@ -25,7 +24,11 @@ Logo pending
   * ~~Strikeout~~
   * ~~Bolding~~
   * ~~Italics~~
-  * Convert html elements to their markdown equivalent
+  * ~~Link~~
+
+* Special *Company* Functions
+  * Insert note, tip, warning
+  * Insert a content include
 
 * ~~Markdown Validator~~
   * ~~Attach markdown-validator panel to the markdown file it's validating. Currently shows for every tab. -> can't do this. Panels can't be attached to a tab.~~
