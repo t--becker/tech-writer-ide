@@ -16,8 +16,8 @@ Logo pending
 * Markdown Toolbar
   * ~~Add multi-icon dropdown list for the below functions.~~
   * ~~Insert markdown table -> I always forget what a markdown table looks like, one click and it inserts a nice empty one~~
-  * Numbered lists -> turn selection into a numbered list or returns empty numbered list example
-  * Bullet lists -> turn selection into a bullet list or returns empty bullet list example
+  * ~~Numbered lists -> turn selection into a numbered list or returns empty numbered list example~~
+  * ~~Bullet lists -> turn selection into a bullet list or returns empty bullet list example~~
   * Codeblock fences for javascript, php, ect
     * Reads your code and identifies the type
   * ~~Image -> inserts empty markdown image~~
