@@ -1,5 +1,5 @@
 # Technical Writer's IDE
-This IDE offers everything a tech writer needs in one place, so you can write your docs and make shit go.
+This IDE offers everything a tech writer needs in one place so you can write your docs and make shit go.
 
 Technical Writer's IDE Features:
 * Markdown Toolbar
@@ -7,9 +7,6 @@ Technical Writer's IDE Features:
 * Customizable Markdown Previewer
 * Grammar Checker
 * JIRA Task List Integration
-
-Logo pending
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 
 ## TODOs
 
@@ -28,7 +25,7 @@ Logo pending
 
 * Special *Company* Functions
   * ~~Insert note, tip, warning~~
-  * Insert a content include
+  * ~~Insert a content include~~
 
 * ~~Markdown Validator~~
   * ~~Attach markdown-validator panel to the markdown file it's validating. Currently shows for every tab. -> can't do this. Panels can't be attached to a tab.~~
@@ -40,6 +37,7 @@ Logo pending
   * Previews your .md document in a split-pane previewer
   * Customize the previewer to look like your site
   * Updates previewer as you type
+  * renders notes, tips, warnings
 
 * JIRA Integration
   * Show your tasks
