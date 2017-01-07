@@ -18,7 +18,7 @@ Logo pending
   * ~~Insert markdown table -> I always forget what a markdown table looks like, one click and it inserts a nice empty one~~
   * ~~Numbered lists -> turn selection into a numbered list or returns empty numbered list example~~
   * ~~Bullet lists -> turn selection into a bullet list or returns empty bullet list example~~
-  * Codeblock fences for javascript, php, ect
+  * ~~Codeblock fences for javascript, php, ect~~
     * Reads your code and identifies the type
   * ~~Image -> inserts empty markdown image~~
   * ~~Strikeout~~
@@ -27,7 +27,7 @@ Logo pending
   * ~~Link~~
 
 * Special *Company* Functions
-  * Insert note, tip, warning
+  * ~~Insert note, tip, warning~~
   * Insert a content include
 
 * ~~Markdown Validator~~
