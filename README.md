@@ -19,7 +19,7 @@ Logo pending
   * ~~Numbered lists -> turn selection into a numbered list or returns empty numbered list example~~
   * ~~Bullet lists -> turn selection into a bullet list or returns empty bullet list example~~
   * ~~Codeblock fences for javascript, php, ect~~
-    * Reads your code and identifies the type
+    * ~~Reads your code and identifies the type~~
   * ~~Image -> inserts empty markdown image~~
   * ~~Strikeout~~
   * ~~Bolding~~
