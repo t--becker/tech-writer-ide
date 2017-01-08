@@ -20,6 +20,7 @@
     "jsonpath-plus": "^0.15.0",
     "lang-detector": "^1.0.6",
     "language-classifier": "0.0.1",
+    "markdown": "^0.5.0",
     "markdownlint": "^0.3.1",
     "node-rest-client": "^2.0.1"
   }
