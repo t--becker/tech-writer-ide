@@ -2,6 +2,7 @@
 This IDE offers everything a tech writer needs in one place so you can write your docs and make shit go.
 
 Technical Writer's IDE Features:
+
 * Markdown Toolbar
 * Markdown Validator
 * Customizable Markdown Previewer
