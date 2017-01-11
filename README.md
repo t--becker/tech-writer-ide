@@ -54,3 +54,19 @@ Technical Writer's IDE Features:
 
 * Bugs
   * Throws "no action" when no files are open and user presses button.
+
+{{% note %}}Take note of this.{{% /note %}}
+
+{{% tip %}}Here's a tip for you.{{% /tip %}}
+
+{{% warning %}}I am warning you.{{% /warning %}}
+
+<div class="aui-message tip">
+  <div class="icon"></div>
+  <p class="title">
+      <strong>Hello world</strong>
+      If you already know the theory and want to jump straight into development, read our <a href="/cloud/jira/platform/getting-started">Getting started guide</a> to build your first JIRA Cloud add-on.
+  </p>
+</div>
+
+tiger monkey help asdf ddddd
