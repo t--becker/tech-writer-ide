@@ -4,7 +4,43 @@
 // for a full listing of what's available.
 @import "ui-variables";
 @import "../iconsets/font-awesome/font-awesome";
+@path-fonts: 'atom://tiger-package/font';
+@path-assets-image: 'atom://tiger-package/assets/img';
 
+
+@font-face {
+  font-family: 'CircularBold';
+  src: url('@{path-fonts}/circular/lineto-circular-bold-c.eot'),
+       url('@{path-fonts}/circular/lineto-circular-bold-c.eot?#iefix') format('embedded-opentype'),
+       url('@{path-fonts}/circular/lineto-circular-bold-c.woff') format('woff'),
+       url('@{path-fonts}/circular/lineto-circular-bold-c.ttf')  format('truetype'),
+       url('@{path-fonts}/circular/lineto-circular-bold-c.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: 'CircularBook';
+  src: url('@{path-fonts}/circular/lineto-circular-book-c.eot'),
+       url('@{path-fonts}/circular/lineto-circular-book-c.eot?#iefix') format('embedded-opentype'),
+       url('@{path-fonts}/circular/lineto-circular-book-c.woff') format('woff'),
+       url('@{path-fonts}/circular/lineto-circular-book-c.ttf')  format('truetype'),
+       url('@{path-fonts}/circular/lineto-circular-book-c.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: 'callout';
+  src: url('@{path-fonts}/callout/callout.eot'),
+       url('@{path-fonts}/callout/callout.eot?#iefix') format('embedded-opentype'),
+       url('@{path-fonts}/callout/callout.woff') format('woff'),
+       url('@{path-fonts}/callout/callout.ttf') format('truetype'),
+       url('@{path-fonts}/callout/callout.svg#callout') format('svg');
+     }
+
+@circularbook-font-family: 'CircularBook';
+@circularbold-font-family: 'CircularBold';
+@font-callout: 'callout';
+@adg3-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+@link-color: #165ecc;
+@charset "UTF-8";
 
 .tiger-package {
 
@@ -124,15 +160,181 @@ div.markdown-error-panel{
       }
     }
 
+/*
+############################################################################
+# MARKDOWN PREVIEW STYLES
+############################################################################
+*/
+
 .md-preview{
   overflow-y: scroll;
   font-weight: 400;
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  h1{
-    font-size: 2.25em;
-    font-family: CircularBold;
-    color: #2b3d5c;
+  padding-left:20px;
+  padding-right:20px;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: @circularbold-font-family;
+    color:#2b3d5c;
+    font-weight:600;
+    line-height:1.4em;
+    margin-bottom: 12px;
   }
+
+  h1 {
+    font-size: 36px;
+
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3{
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  hr {
+    color:#DADADA;
+    height: 1px;
+    margin: 15px auto;
+  }
+
+  p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family:@circularbook-font-family;
+  }
+
+
+  // List --------------------
+
+  ul, ol {
+    font-family:@circularbook-font-family;
+    padding:0;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    list-style-position: outside;
+    margin-left: 1.25rem;
+    li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    }
+  }
+
+  a {
+    color: @link-color;
+
+    &:hover {
+      color: @link-color;
+      text-decoration: underline;
+    }
+  }
+  .navbar{
+    margin-bottom:0px;
+    margin-top:-12px;
+    margin-left:-20px;
+    margin-right:-20px;
+  }
+  .navbar-default{
+    background-color: #165ecc;
+    height:67px;
+    position: relative;
+  }
+  .logo{
+    z-index: 1;
+    background-image: url('@{path-assets-image}/atlassian-logo-white.svg');
+    background-size: 96px;
+    background-color: transparent;
+    display: block;
+    width: 96px;
+    height: 20.4px;
+    position: relative;
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .aui-message{
+    width: 100%;
+    min-height: 50px!important;
+    text-align: left;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: background-color .25s ease-out,color .25s ease-out;
+    vertical-align: middle;
+    padding: .85em 1em;
+    margin: 0 0 1rem;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    background: none!important;
+    font-family:@circularbook-font-family;
+    strong{
+      font-weight: 700;
+    }
+    &.tip{
+        border-color: #654783;
+        .icon{
+          width: 30px;
+          min-height: 30px;
+          display: block;
+          float: left;
+          font-size: 1.25em;
+          padding-right: 5px;
+          font-family: @font-callout;
+          &:before{
+            content: 'b';
+            color: #654783;
+          }
+        }
+    }
+    &.note{
+        border-color: #3497ff;
+        .icon{
+          width: 30px;
+          min-height: 30px;
+          display: block;
+          float: left;
+          font-size: 1.25em;
+          padding-right: 5px;
+          font-family: @font-callout;
+          &:before{
+            content: 'c';
+            color: #3497ff;
+          }
+        }
+    }
+    &.warning{
+        border-color: #ed5451;
+
+        .icon{
+          width: 30px;
+          min-height: 30px;
+          display: block;
+          float: left;
+          font-size: 1.25em;
+          padding-right: 5px;
+          font-family: @font-callout;
+          &:before{
+            content: 'a';
+            color: #ed5451;
+          }
+        }
+    }
+  }
+
+
+
+//fileend
 }
