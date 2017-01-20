@@ -35,10 +35,17 @@ Technical Writer's IDE Features:
   * Show markdown errors with contextual highlights on the page
 
 * Markdown Previewer
-  * Previews your .md document in a split-pane previewer
+  ~~* Previews your .md document in a split-pane previewer~~
   * Customize the previewer to look like your site
-  * Updates previewer as you type
-  * renders notes, tips, warnings
+  ~~* Updates previewer as you type~~
+  ~~* renders notes, tips, warnings~~
+  * Polish
+    * ~~Render includes~~
+    * Improve CSS on notes, warning, and tips
+    * set image path for rendering
+    * set include path for rendering
+    * strip unique headers
+    * Code samples CSS + Shrink when too large.
 
 * JIRA Integration
   * Show your tasks
@@ -54,19 +61,3 @@ Technical Writer's IDE Features:
 
 * Bugs
   * Throws "no action" when no files are open and user presses button.
-
-{{% note %}}Take note of this.{{% /note %}}
-
-{{% tip %}}Here's a tip for you.{{% /tip %}}
-
-{{% warning %}}I am warning you.{{% /warning %}}
-
-<div class="aui-message tip">
-  <div class="icon"></div>
-  <p class="title">
-      <strong>Hello world</strong>
-      If you already know the theory and want to jump straight into development, read our <a href="/cloud/jira/platform/getting-started">Getting started guide</a> to build your first JIRA Cloud add-on.
-  </p>
-</div>
-
-tiger monkey help asdf ddddd
