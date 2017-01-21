@@ -42,11 +42,11 @@ Technical Writer's IDE Features:
   * Polish
     * ~~Render includes~~
     * Improve CSS on notes, warning, and tips
-    * set image path for rendering
+    * ~~set image path for rendering~~
     * set include path for rendering
     * strip unique headers
     * Code samples CSS + Shrink when too large.
-    * table css 
+    * table css
 
 * JIRA Integration
   * Show your tasks
