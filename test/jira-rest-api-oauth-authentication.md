@@ -60,16 +60,16 @@ These are the roles in the OAuth authentication process, and how they relate to 
 
 |              |                 |
 |--------------|-----------------|
-| **Resource**<br>![Alt text](../img/atlassian-software-26-sml.png)| If you are integrating a client application with JIRA, then JIRA is considered to be the "resource". |
-| **Resource owner**<br>![Alt text](../img/meeple-84-2x-sml.png) | As JIRA is the "resource", the JIRA user is considered to be the "resource owner" for an authentication request. |
-| **Consumer**<br>![Alt text](../../../../illustrations/atlassian-software-01-sml.png) | The client application is registered as a consumer, by creating an application link (that uses OAuth) in JIRA that links to the client. |
+| **Resource**<br>![Alt text](./img/atlassian-software-26-sml.png)| If you are integrating a client application with JIRA, then JIRA is considered to be the "resource". |
+| **Resource owner**<br>![Alt text](./img/meeple-84-2x-sml.png) | As JIRA is the "resource", the JIRA user is considered to be the "resource owner" for an authentication request. |
+| **Consumer**<br>![Alt text](./img/atlassian-software-01-sml.png) | The client application is registered as a consumer, by creating an application link (that uses OAuth) in JIRA that links to the client. |
 
 ### Process
 
 The authentication process, commonly known as the "OAuth dance", works by getting the resource owner to grant access to their information on the resource, by authenticating a request token. This request token is used by the consumer to obtain an access token from the resource. Once the client has an access token, it can use it to make authenticated requests to the resource until the token expires or is revoked.
 
 This process is shown in more detail in the diagram below:
-![Alt text](../images/jira-oauth-dance.png)
+![Alt text](./img/jira-oauth-dance.png)
 
 ## See it in action
 
@@ -126,15 +126,15 @@ In JIRA, OAuth consumers are represented by **application links**. Application l
 2.  In the field, '*Enter the URL of the application you want to link*', enter any URL, e.g. http://example.com/ and click **Create new link**.
     You'll get a warning that '*No response was received from the URL you entered*'. Ignore it and click **Continue**.
 3.  On the first screen of the **Link applications** dialog, enter anything you want in the fields. However, make sure you tick the **Create incoming link** checkbox.<br>
-    ![Alt text](../images/jdev-oauth-applink1.png)
+    ![Alt text](./img/jdev-oauth-applink1.png)
     *Note, in this example, it doesn't matter what you enter for the client application details (URL, name, type, etc). This is because we only want to retrieve data from JIRA, therefore we only need to set up a one-way (incoming) link from the client to JIRA.*
 4.  The next screen of the **Link applications** dialog is where you enter the consumer details for the sample client. Set it to the following values:
     -   **Consumer key** = OauthKey
     -   **Consumer name** = Example JIRA app
     -   **Public key** = &lt;*Copy the public key from the jira\_publickey.pem file you generated previously and paste it into this field&gt;*<br>
-        ![Alt text](../images/jdev-oauth-applink2.png)
+        ![Alt text](./img/jdev-oauth-applink2.png)
 5.  Click **Continue**. You should end up with an application link that looks like like this:<br>
-    ![Alt text](../images/jdev-oauth-applink3.png)
+    ![Alt text](./img/jdev-oauth-applink3.png)
 
 That's it! You've now configured the sample client as an OAuth consumer in JIRA.
 
@@ -160,7 +160,7 @@ The "OAuth dance" is a term that's used to describe the process of getting an ac
     The request token will persist for 10 minutes. If it expires, you'll need to request a new one.
 
 3.  In your browser, go to the URL specified in the output. You'll see the following dialog:
-    ![Alt text](../images/jdev-oauth-authrequest.png)
+    ![Alt text](./img/jdev-oauth-authrequest.png)
 4.  Click **Allow**. This will authorize the request token.
     You'll see the following output in your browser:
 
@@ -416,7 +416,7 @@ The above method returns an issue like this:
  }
 ```
 
-![Alt text](../../../../illustrations/check.png) Congratulations! You now know how to use OAuth to make an authenticated request to the JIRA REST API.
+![Alt text](./img/check.png) Congratulations! You now know how to use OAuth to make an authenticated request to the JIRA REST API.
 
 ## Development tips
 
@@ -441,7 +441,7 @@ In addition, you'll find a number of general tips below that should be helpful, 
   [Authentication for add-ons]: /cloud/jira/platform/addon-authentication
   [cookie-based authentication]: /cloud/jira/platform/jira-rest-api-cookie-based-authentication
   [basic authentication]: /cloud/jira/platform/jira-rest-api-basic-authentication
-  []: ../../../../illustrations/cog-icon.png
+  []: (./img/cog-icon.png)
   [Code at OAuth.net]: https://oauth.net/code/
   [Google OAuth Client Library for Java]: https://developers.google.com/api-client-library/java/google-oauth-java-client/
   [Security overview]: /cloud/jira/platform/security-overview
