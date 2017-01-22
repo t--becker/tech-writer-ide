@@ -41,12 +41,13 @@ Technical Writer's IDE Features:
   ~~* renders notes, tips, warnings~~
   * Polish
     * ~~Render includes~~
-    * Improve CSS on notes, warning, and tips
+    * ~~Improve CSS on notes, warning, and tips~~
     * ~~set image path for rendering~~
     * ~~set include path for rendering~~
     * strip unique headers
     * ~~Code samples CSS~~ + Shrink when too large.
     * ~~table css~~
+    * handle titles for note, tip, warning. 
 
 * JIRA Integration
   * Show your tasks
