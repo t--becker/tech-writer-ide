@@ -46,7 +46,7 @@ Technical Writer's IDE Features:
     * ~~set include path for rendering~~
     * strip unique headers
     * ~~Code samples CSS~~ + Shrink when too large.
-    * table css
+    * ~~table css~~
 
 * JIRA Integration
   * Show your tasks
