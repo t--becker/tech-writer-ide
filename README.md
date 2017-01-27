@@ -47,9 +47,10 @@ Technical Writer's IDE Features:
     * strip unique headers
     * ~~Code samples CSS~~ + Shrink when too large.
     * ~~table css~~
-    * handle titles for note, tip, warning. 
+    * handle titles for note, tip, warning.
+    * Improve the include ERROR CSS
 
-* JIRA Integration
+* JIRA or Trello Integration
   * Show your tasks
   * Allow you to update and close tasks
   * Scan the page and create tasks for keywords : TODO-JIRA:
@@ -63,3 +64,4 @@ Technical Writer's IDE Features:
 
 * Bugs
   * Throws "no action" when no files are open and user presses button.
+  * Markdown validator chokes on the markdown metadata
