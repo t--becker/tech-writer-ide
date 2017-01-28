@@ -7,7 +7,7 @@ Technical Writer's IDE Features:
 * Markdown Validator
 * Customizable Markdown Previewer
 * Grammar Checker
-* JIRA Task List Integration
+* JIRA | Trello Task List Integration
 
 ## TODOs
 
@@ -32,7 +32,8 @@ Technical Writer's IDE Features:
   * ~~Attach markdown-validator panel to the markdown file it's validating. Currently shows for every tab. -> can't do this. Panels can't be attached to a tab.~~
   * ~~run markdown panel on editor change.~~
   * ~~run markdown panel on tab change.~~
-  * Show markdown errors with contextual highlights on the page
+  * Show markdown errors with contextual highlights on the page, instead of a validator window
+  * Remove markdown metadata before validation, as it causes the validator to crash
 
 * Markdown Previewer
   ~~* Previews your .md document in a split-pane previewer~~
@@ -44,11 +45,11 @@ Technical Writer's IDE Features:
     * ~~Improve CSS on notes, warning, and tips~~
     * ~~set image path for rendering~~
     * ~~set include path for rendering~~
-    * strip unique headers
+    * ~~strip meta data headers~~
     * ~~Code samples CSS~~ + Shrink when too large.
     * ~~table css~~
-    * handle titles for note, tip, warning.
-    * Improve the include ERROR CSS
+    * ~~handle titles for note, tip, warning.~~
+    * ~~Improve the include ERROR CSS~~
 
 * JIRA or Trello Integration
   * Show your tasks
@@ -65,3 +66,4 @@ Technical Writer's IDE Features:
 * Bugs
   * Throws "no action" when no files are open and user presses button.
   * Markdown validator chokes on the markdown metadata
+  * Markdown processor is duplicating tables.
