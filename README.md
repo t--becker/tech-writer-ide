@@ -23,6 +23,7 @@ Technical Writer's IDE Features:
   * ~~Bolding~~
   * ~~Italics~~
   * ~~Link~~
+  * Markdown table improvement: formats a text selection into an md table using spaces or tabs as row breaks.
 
 * Special *Company* Functions
   * ~~Insert note, tip, warning~~
@@ -65,5 +66,5 @@ Technical Writer's IDE Features:
 
 * Bugs
   * Throws "no action" when no files are open and user presses button.
-  * Markdown validator chokes on the markdown metadata
+  * ~~Markdown validator chokes on the markdown metadata~~
   * Markdown processor is duplicating tables.
