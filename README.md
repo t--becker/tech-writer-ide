@@ -34,7 +34,6 @@ Technical Writer's IDE Features:
   * ~~run markdown panel on editor change.~~
   * ~~run markdown panel on tab change.~~
   * Show markdown errors with contextual highlights on the page, instead of a validator window
-  * Remove markdown metadata before validation, as it causes the validator to crash
 
 * Markdown Previewer
   ~~* Previews your .md document in a split-pane previewer~~
@@ -67,4 +66,4 @@ Technical Writer's IDE Features:
 * Bugs
   * Throws "no action" when no files are open and user presses button.
   * ~~Markdown validator chokes on the markdown metadata~~
-  * Markdown processor is duplicating tables.
+  * ~~Markdown processor is duplicating tables.~~
