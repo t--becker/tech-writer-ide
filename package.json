@@ -13,14 +13,12 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "ak-icon": "^12.1.0",
-    "bootstrap": "^3.3.7",
-    "jquery": "^2.0.0",
+    "highlight.js": "^9.9.0",
     "js-md5": "^0.4.1",
-    "jsonpath-plus": "^0.15.0",
     "lang-detector": "^1.0.6",
     "language-classifier": "0.0.1",
     "markdownlint": "^0.3.1",
+    "marked": "^0.3.6",
     "node-rest-client": "^2.0.1"
   }
 }

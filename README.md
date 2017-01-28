@@ -2,11 +2,12 @@
 This IDE offers everything a tech writer needs in one place so you can write your docs and make shit go.
 
 Technical Writer's IDE Features:
+
 * Markdown Toolbar
 * Markdown Validator
 * Customizable Markdown Previewer
 * Grammar Checker
-* JIRA Task List Integration
+* JIRA | Trello Task List Integration
 
 ## TODOs
 
@@ -22,6 +23,7 @@ Technical Writer's IDE Features:
   * ~~Bolding~~
   * ~~Italics~~
   * ~~Link~~
+  * Markdown table improvement: formats a text selection into an md table using spaces or tabs as row breaks.
 
 * Special *Company* Functions
   * ~~Insert note, tip, warning~~
@@ -31,15 +33,25 @@ Technical Writer's IDE Features:
   * ~~Attach markdown-validator panel to the markdown file it's validating. Currently shows for every tab. -> can't do this. Panels can't be attached to a tab.~~
   * ~~run markdown panel on editor change.~~
   * ~~run markdown panel on tab change.~~
-  * Show markdown errors with contextual highlights on the page
+  * Show markdown errors with contextual highlights on the page, instead of a validator window
 
 * Markdown Previewer
-  * Previews your .md document in a split-pane previewer
+  ~~* Previews your .md document in a split-pane previewer~~
   * Customize the previewer to look like your site
-  * Updates previewer as you type
-  * renders notes, tips, warnings
+  ~~* Updates previewer as you type~~
+  ~~* renders notes, tips, warnings~~
+  * Polish
+    * ~~Render includes~~
+    * ~~Improve CSS on notes, warning, and tips~~
+    * ~~set image path for rendering~~
+    * ~~set include path for rendering~~
+    * ~~strip meta data headers~~
+    * ~~Code samples CSS~~ + Shrink when too large.
+    * ~~table css~~
+    * ~~handle titles for note, tip, warning.~~
+    * ~~Improve the include ERROR CSS~~
 
-* JIRA Integration
+* JIRA or Trello Integration
   * Show your tasks
   * Allow you to update and close tasks
   * Scan the page and create tasks for keywords : TODO-JIRA:
@@ -53,3 +65,5 @@ Technical Writer's IDE Features:
 
 * Bugs
   * Throws "no action" when no files are open and user presses button.
+  * ~~Markdown validator chokes on the markdown metadata~~
+  * ~~Markdown processor is duplicating tables.~~
