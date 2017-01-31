@@ -4,12 +4,15 @@ Everything a tech writer needs to write your markdown docs and make shit go.
 ## Features
 
 ### Markdown Toolbar
+Standard markdown tools; plus, Atlassian note, tip, warning, and include buttons.
 ![Toolbar](./img/toolbar.png)
 
 ### Markdown Validator
+Validate markdown as you type.
 ![Validator](./img/validator.png)
 
-### Previewer
+### Markdown Previewer
+View your markdown document as it would look on the Atlassian developer portal. [http://developers.atlassian.com](http://developers.atlassian.com)
 ![Previewer](./img/preview.png)
 
 ## Roadmap
