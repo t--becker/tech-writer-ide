@@ -1,69 +1,24 @@
 # Technical Writer's IDE
-This IDE offers everything a tech writer needs in one place so you can write your docs and make shit go.
+Everything a tech writer needs to write your markdown docs and make shit go.
 
-Technical Writer's IDE Features:
+## Features
 
-* Markdown Toolbar
-* Markdown Validator
-* Customizable Markdown Previewer
-* Grammar Checker
+### Markdown Toolbar
+![Toolbar](./img/toolbar.png)
+
+### Markdown Validator
+![Validator](./img/validator.png)
+
+### Previewer
+![Previewer](./img/preview.png)
+
+## Roadmap
 * JIRA | Trello Task List Integration
-
-## TODOs
-
-* Markdown Toolbar
-  * ~~Add multi-icon dropdown list for the below functions.~~
-  * ~~Insert markdown table -> I always forget what a markdown table looks like, one click and it inserts a nice empty one~~
-  * ~~Numbered lists -> turn selection into a numbered list or returns empty numbered list example~~
-  * ~~Bullet lists -> turn selection into a bullet list or returns empty bullet list example~~
-  * ~~Codeblock fences for javascript, php, ect~~
-    * ~~Reads your code and identifies the type~~
-  * ~~Image -> inserts empty markdown image~~
-  * ~~Strikeout~~
-  * ~~Bolding~~
-  * ~~Italics~~
-  * ~~Link~~
-  * Markdown table improvement: formats a text selection into an md table using spaces or tabs as row breaks.
-
-* Special *Company* Functions
-  * ~~Insert note, tip, warning~~
-  * ~~Insert a content include~~
-
-* ~~Markdown Validator~~
-  * ~~Attach markdown-validator panel to the markdown file it's validating. Currently shows for every tab. -> can't do this. Panels can't be attached to a tab.~~
-  * ~~run markdown panel on editor change.~~
-  * ~~run markdown panel on tab change.~~
-  * Show markdown errors with contextual highlights on the page, instead of a validator window
-
-* Markdown Previewer
-  ~~* Previews your .md document in a split-pane previewer~~
-  * Customize the previewer to look like your site
-  ~~* Updates previewer as you type~~
-  ~~* renders notes, tips, warnings~~
-  * Polish
-    * ~~Render includes~~
-    * ~~Improve CSS on notes, warning, and tips~~
-    * ~~set image path for rendering~~
-    * ~~set include path for rendering~~
-    * ~~strip meta data headers~~
-    * ~~Code samples CSS~~ + Shrink when too large.
-    * ~~table css~~
-    * ~~handle titles for note, tip, warning.~~
-    * ~~Improve the include ERROR CSS~~
-
-* JIRA or Trello Integration
   * Show your tasks
   * Allow you to update and close tasks
   * Scan the page and create tasks for keywords : TODO-JIRA:
-
 * Grammar Checker
   * Integrate a Grammar API for doc validation
-
 * Visual Github integration
-  * Use the d3js library to show a visual representation of bitbucket branches (http://bl.ocks.org/mbostock/4339083)
-  * allow to commit and merge branches by dragging streams together.
-
-* Bugs
-  * Throws "no action" when no files are open and user presses button.
-  * ~~Markdown validator chokes on the markdown metadata~~
-  * ~~Markdown processor is duplicating tables.~~
+    * Use the d3js library to show a visual representation of bitbucket branches (http://bl.ocks.org/mbostock/4339083)
+    * allow to commit and merge branches by dragging streams together.
