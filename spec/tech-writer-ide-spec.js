@@ -1,13 +1,13 @@
 'use babel';
 
-import TigerPackage from '../lib/tech-writer-ide';
+import TechWriterIDE from '../lib/tech-writer-ide';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
 // To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
-describe('TigerPackage', () => {
+describe('TechWriterIDE', () => {
   let workspaceElement, activationPromise;
 
   beforeEach(() => {
@@ -32,13 +32,13 @@ describe('TigerPackage', () => {
       runs(() => {
         expect(workspaceElement.querySelector('.tech-writer-ide')).toExist();
 
-        let tigerPackageElement = workspaceElement.querySelector('.tech-writer-ide');
-        expect(tigerPackageElement).toExist();
+        let techWriterIDEElement = workspaceElement.querySelector('.tech-writer-ide');
+        expect(techWriterIDEElement).toExist();
 
-        let tigerPackagePanel = atom.workspace.panelForItem(tigerPackageElement);
-        expect(tigerPackagePanel.isVisible()).toBe(true);
+        let techWriterIDEPanel = atom.workspace.panelForItem(techWriterIDEElement);
+        expect(techWriterIDEPanel.isVisible()).toBe(true);
         atom.commands.dispatch(workspaceElement, 'tech-writer-ide:toggle');
-        expect(tigerPackagePanel.isVisible()).toBe(false);
+        expect(techWriterIDEPanel.isVisible()).toBe(false);
       });
     });
 
@@ -63,10 +63,10 @@ describe('TigerPackage', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let tigerPackageElement = workspaceElement.querySelector('.tech-writer-ide');
-        expect(tigerPackageElement).toBeVisible();
+        let techWriterIDEElement = workspaceElement.querySelector('.tech-writer-ide');
+        expect(techWriterIDEElement).toBeVisible();
         atom.commands.dispatch(workspaceElement, 'tech-writer-ide:toggle');
-        expect(tigerPackageElement).not.toBeVisible();
+        expect(techWriterIDEElement).not.toBeVisible();
       });
     });
   });
