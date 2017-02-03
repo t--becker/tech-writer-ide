@@ -1,6 +1,6 @@
 'use babel';
 
-import TigerPackage from '../lib/tiger-package';
+import TigerPackage from '../lib/tech-writer-ide';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -12,32 +12,32 @@ describe('TigerPackage', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('tiger-package');
+    activationPromise = atom.packages.activatePackage('tech-writer-ide');
   });
 
-  describe('when the tiger-package:toggle event is triggered', () => {
+  describe('when the tech-writer-ide:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
-      expect(workspaceElement.querySelector('.tiger-package')).not.toExist();
+      expect(workspaceElement.querySelector('.tech-writer-ide')).not.toExist();
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'tiger-package:toggle');
+      atom.commands.dispatch(workspaceElement, 'tech-writer-ide:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.tiger-package')).toExist();
+        expect(workspaceElement.querySelector('.tech-writer-ide')).toExist();
 
-        let tigerPackageElement = workspaceElement.querySelector('.tiger-package');
+        let tigerPackageElement = workspaceElement.querySelector('.tech-writer-ide');
         expect(tigerPackageElement).toExist();
 
         let tigerPackagePanel = atom.workspace.panelForItem(tigerPackageElement);
         expect(tigerPackagePanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'tiger-package:toggle');
+        atom.commands.dispatch(workspaceElement, 'tech-writer-ide:toggle');
         expect(tigerPackagePanel.isVisible()).toBe(false);
       });
     });
@@ -51,11 +51,11 @@ describe('TigerPackage', () => {
       // workspaceElement to the DOM are generally slower than those off DOM.
       jasmine.attachToDOM(workspaceElement);
 
-      expect(workspaceElement.querySelector('.tiger-package')).not.toExist();
+      expect(workspaceElement.querySelector('.tech-writer-ide')).not.toExist();
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'tiger-package:toggle');
+      atom.commands.dispatch(workspaceElement, 'tech-writer-ide:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -63,9 +63,9 @@ describe('TigerPackage', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let tigerPackageElement = workspaceElement.querySelector('.tiger-package');
+        let tigerPackageElement = workspaceElement.querySelector('.tech-writer-ide');
         expect(tigerPackageElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'tiger-package:toggle');
+        atom.commands.dispatch(workspaceElement, 'tech-writer-ide:toggle');
         expect(tigerPackageElement).not.toBeVisible();
       });
     });

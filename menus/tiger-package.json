@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle tiger-package",
-        "command": "tiger-package:toggle"
+        "label": "Toggle tech-writer-ide",
+        "command": "tech-writer-ide:toggle"
       }
     ]
   },
@@ -16,7 +16,7 @@
           "submenu": [
             {
               "label": "Toggle",
-              "command": "tiger-package:toggle"
+              "command": "tech-writer-ide:toggle"
             }
           ]
         }

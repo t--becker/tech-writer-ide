@@ -1,6 +1,6 @@
 'use babel';
 
-import TigerPackageView from '../lib/tiger-package-view';
+import TigerPackageView from '../lib/tech-writer-ide-view';
 
 describe('TigerPackageView', () => {
   it('has one valid test', () => {

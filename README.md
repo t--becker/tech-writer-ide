@@ -1,5 +1,5 @@
 # Technical Writer's IDE
-Everything a tech writer needs to write your markdown docs and make shit go.
+Everything a tech writer needs to write markdown docs and make shit go.
 
 ## Features
 
