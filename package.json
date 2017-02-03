@@ -2,19 +2,18 @@
   "name": "Writer-Toolkit",
   "main": "./lib/tiger-package",
   "version": "0.0.0",
-  "description": "Writer's toolkit with a bunch of features to help you write your day away and not go insane.",
+  "description": "Everything a tech writer needs to write markdown docs and make shit go.",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "tiger-package:toggle"
+    "atom-workspace": "tech-writer-ide:toggle"
   },
-  "repository": "https://github.com/t--becker/tiger-package",
+  "repository": "https://github.com/t--becker/tech-writer-ide",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
     "highlight.js": "^9.9.0",
-    "js-md5": "^0.4.1",
     "lang-detector": "^1.0.6",
     "language-classifier": "0.0.1",
     "markdownlint": "^0.3.1",
