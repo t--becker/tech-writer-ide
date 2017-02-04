@@ -5,15 +5,15 @@ Everything a tech writer needs to write markdown docs and make shit go.
 
 ### Markdown Toolbar
 Standard markdown tools; plus, Atlassian note, tip, warning, and include buttons.
-![Toolbar](./img/toolbar.png)
+![Toolbar](https://github.com/t--becker/tech-writer-ide/blob/master/img/toolbar.png?raw=true)
 
 ### Markdown Validator
 Validate markdown as you type.
-![Validator](./img/validator.png)
+![Validator](https://github.com/t--becker/tech-writer-ide/blob/master/img/validator.png?raw=true)
 
 ### Markdown Previewer
 View your markdown document as it would look on the Atlassian developer portal. [http://developers.atlassian.com](http://developers.atlassian.com)
-![Previewer](./img/preview.png)
+![Previewer](https://github.com/t--becker/tech-writer-ide/blob/master/img/preview.png?raw=true)
 
 ## Installation
 Open **Settings -> Install** and search for `tech-writer-ide`.
