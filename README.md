@@ -15,11 +15,18 @@ Validate markdown as you type.
 View your markdown document as it would look on the Atlassian developer portal. [http://developers.atlassian.com](http://developers.atlassian.com)
 ![Previewer](./img/preview.png)
 
+## Installation
+Open **Settings -> Install** and search for `tech-writer-ide`.
+
+Alternatively, install through the command line:
+```bash
+amp install tech-writer-ide
+```
+
 ## Roadmap
-* JIRA | Trello Task List Integration
-  * Show your tasks
-  * Allow you to update and close tasks
-  * Scan the page and create tasks for keywords : TODO-JIRA:
+* JIRA || Trello Task List Integration
+  * Show your tasks in Atom.io panel
+  * Update and close tasks
 * Grammar Checker
   * Integrate a Grammar API for doc validation
 * Visual Github integration
