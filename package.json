@@ -14,10 +14,11 @@
   },
   "dependencies": {
     "highlight.js": "^9.9.0",
+    "jsonpath-plus": "^0.16.0",
     "lang-detector": "^1.0.6",
     "language-classifier": "0.0.1",
     "markdownlint": "^0.3.1",
     "marked": "^0.3.6",
-    "node-rest-client": "^2.0.1"
+    "node-rest-client": "^2.5.0"
   }
 }
