@@ -32,3 +32,6 @@ amp install tech-writer-ide
 * Visual Github integration
     * Use the d3js library to show a visual representation of bitbucket branches (http://bl.ocks.org/mbostock/4339083)
     * allow to commit and merge branches by dragging streams together.
+
+## Updates
+* v0.1.2 -> updated to restrict only one markdown previewer to be open at a time. This is a system limitation.
