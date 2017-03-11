@@ -1,7 +1,7 @@
 {
   "name": "Tech-Writer-IDE",
   "main": "./lib/tech-writer-ide",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Everything a tech writer needs to write markdown docs and make shit go.",
   "keywords": [],
   "activationCommands": {
